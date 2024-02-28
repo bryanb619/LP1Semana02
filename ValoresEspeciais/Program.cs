@@ -43,6 +43,18 @@ namespace ValoresEspeciais
             Console.WriteLine(char.MinValue);
             Console.WriteLine(char.MinValue);
 
+            // float
+            Console.WriteLine(float.MinValue);
+            Console.WriteLine(float.MaxValue);
+
+            // double 
+            Console.WriteLine(double.MinValue);
+            Console.WriteLine(double.MaxValue);
+
+            // decimal 
+            Console.WriteLine(decimal.MinValue);
+            Console.WriteLine(decimal.MaxValue);
+
 
         }
     }
