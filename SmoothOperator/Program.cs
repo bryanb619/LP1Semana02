@@ -8,7 +8,9 @@ namespace SmoothOperator
     class Program
     {
         /// <summary>
-        /// 
+        ///  Request input for a non-negative number
+        ///  Converts to a byte
+        ///  Prints a decrementation & incrementation of this number
         /// </summary>
         /// <param name="args">Not used</param>
         private static void Main(string[] args)
