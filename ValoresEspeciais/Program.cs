@@ -56,6 +56,11 @@ namespace ValoresEspeciais
             Console.WriteLine(decimal.MaxValue);
 
 
+            // Added double Infinity values
+            Console.WriteLine(double.PositiveInfinity);
+            Console.WriteLine(double.NegativeInfinity);
+
+
         }
     }
 }
