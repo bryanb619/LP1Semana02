@@ -27,6 +27,10 @@ namespace ValoresEspeciais
             Console.WriteLine(ulong.MinValue); 
             Console.WriteLine(ulong.MaxValue); 
 
+            // long
+            Console.WriteLine(long.MinValue); 
+            Console.WriteLine(long.MaxValue); 
+
 
 
         }
