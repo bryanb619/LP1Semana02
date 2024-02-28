@@ -19,17 +19,13 @@ namespace SmoothOperator
             // request byte input
             Console.Write("Insere um número inteiro não-negativo: ");
 
-            // byte declaration
-            byte n; 
-
-            // converion & readline
-            n = byte.Parse(Console.Readline()); 
+            byte n = byte.Parse(Console.ReadLine()); 
 
             // print & decrementation
-            Console.WriteLine(n--); 
+            Console.WriteLine(--n); 
 
             // print & increment
-            Console.WriteLine(n++); 
+            Console.WriteLine(++n); 
         }
     }
 }
