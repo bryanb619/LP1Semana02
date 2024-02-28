@@ -31,6 +31,17 @@ namespace ValoresEspeciais
             Console.WriteLine(long.MinValue); 
             Console.WriteLine(long.MaxValue); 
 
+            // short
+            Console.WriteLine(short.MinValue); 
+            Console.WriteLine(short.MaxValue); 
+
+            // ushort
+            Console.WriteLine(ushort.MinValue); 
+            Console.WriteLine(ushort.MaxValue); 
+
+            // char
+            Console.WriteLine(char.MinValue);
+            Console.WriteLine(char.MinValue);
 
 
         }
