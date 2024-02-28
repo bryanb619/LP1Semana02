@@ -33,6 +33,10 @@ namespace ChatGPTOne
 
                         break; 
                     }
+                    case "EXIT":
+                    {
+                        break
+                    }
                 }
            }
         }
