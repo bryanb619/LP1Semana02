@@ -11,6 +11,10 @@ namespace ValoresEspeciais
             Console.WriteLine(sbyte.MinValue);
             Console.WriteLine(sbyte.MaxValue);
 
+            // byte
+            Console.WriteLine(byte.MinValue);
+            Console.WriteLine(byte.MaxValue); 
+
 
         }
     }
