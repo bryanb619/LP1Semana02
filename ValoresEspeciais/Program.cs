@@ -130,8 +130,7 @@ namespace ValoresEspeciais
 
             // 7
 
-            buint ++; 
-            Console.WriteLine($"uint overflow: {buint}"); 
+            Console.WriteLine(buint +1); 
 
 
 
