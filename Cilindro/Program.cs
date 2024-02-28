@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Cilindro
 {
@@ -22,11 +23,11 @@ namespace Cilindro
             // volume equation
             float v = MathF.PI * MathF.Pow(r,2) * a; 
 
+            // print result
             Console.WriteLine($"O volume do cilindro é {v}"); 
 
             // surface area equation
-
-
+            float s = 2* MathF.PI * r * (r+a); 
 
 
 
