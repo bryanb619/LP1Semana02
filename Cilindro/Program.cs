@@ -22,7 +22,13 @@ namespace Cilindro
             // volume equation
             float v = MathF.PI * MathF.Pow(r,2) * a; 
 
-            
+            Console.WriteLine($"O volume do cilindro é {v}"); 
+
+            // surface area equation
+
+
+
+
 
 
 
