@@ -148,8 +148,7 @@ namespace ValoresEspeciais
             float uf = 60000.0f; 
 
             Console.WriteLine(uf == 60000.0f + 0.0001f); 
-            
-
+        
         }
     }
 }
