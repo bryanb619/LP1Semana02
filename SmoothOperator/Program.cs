@@ -38,7 +38,20 @@ namespace SmoothOperator
             // Xor left 3
             Console.WriteLine(n<<3); 
 
+            // Xor with 5
+            Console.WriteLine(n^5);
 
+
+
+            if(n > 10) 
+            {
+                Console.WriteLine(true); 
+            }
+
+            else
+            {
+                Console.WriteLine(false); 
+            }
 
         }
     }
