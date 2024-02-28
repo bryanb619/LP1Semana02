@@ -69,30 +69,40 @@ namespace ValoresEspeciais
 
 
             // INTEGRAL TYPES PRINT VALUES
+
+            // sbyte print
             Console.WriteLine(ssb);
             Console.WriteLine(sbb); 
 
+            // byte print
             Console.WriteLine(sb);
             Console.WriteLine(bb);
 
+            // int print
             Console.WriteLine(si);
             Console.WriteLine(bi);
 
+            // uint print
             Console.WriteLine(suint);
             Console.WriteLine(buint);
 
+            // ulong print
             Console.WriteLine(sulong);
             Console.WriteLine(bulong);
 
+            // long print
             Console.WriteLine(slong);
             Console.WriteLine(blong);
 
+            // short print
             Console.WriteLine(sshort);
             Console.WriteLine(bshort);
 
+            // ushort print
             Console.WriteLine(sushort);
             Console.WriteLine(bushort);
 
+            // char print
             Console.WriteLine(schar);
             Console.WriteLine(bchar);
 
