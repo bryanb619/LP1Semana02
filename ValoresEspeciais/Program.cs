@@ -132,6 +132,9 @@ namespace ValoresEspeciais
 
             Console.WriteLine(buint +1); 
 
+            // 2 OVERFLOWS in floats
+            float fo = 2 * float.MaxValue; 
+            float fo2 = float.MaxValue +1;  
 
 
 
