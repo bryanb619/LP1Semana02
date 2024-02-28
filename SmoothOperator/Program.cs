@@ -16,6 +16,9 @@ namespace SmoothOperator
         private static void Main(string[] args)
         {
 
+
+            //1
+
             // request byte input
             Console.Write("Insere um número inteiro não-negativo: ");
 
@@ -26,6 +29,17 @@ namespace SmoothOperator
 
             // print & increment
             Console.WriteLine(++n); 
+
+            // 4
+
+            // divided per 2
+            Console.WriteLine(n/2); 
+
+            // Xor left 3
+            Console.WriteLine(n<<3); 
+
+
+
         }
     }
 }
