@@ -15,6 +15,15 @@ namespace ValoresEspeciais
             Console.WriteLine(byte.MinValue);
             Console.WriteLine(byte.MaxValue); 
 
+            // int
+            Console.WriteLine(int.MinValue);
+            Console.WriteLine(int.MaxValue);
+
+            // uint
+            Console.WriteLine(uint.MinValue); 
+            Console.WriteLine(uint.MaxValue); 
+
+
 
         }
     }
