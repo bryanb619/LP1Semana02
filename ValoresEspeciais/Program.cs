@@ -127,6 +127,15 @@ namespace ValoresEspeciais
             
             // print of NaN
             Console.WriteLine(x); 
+
+            // 7
+
+            buint ++; 
+            Console.WriteLine($"uint overflow: {buint}"); 
+
+
+
+
             
 
         }
