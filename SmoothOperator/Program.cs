@@ -3,7 +3,7 @@
 namespace SmoothOperator
 {
     /// <summary>
-    /// 
+    /// Represents basic program that decrements and increments a byte
     /// </summary>
     class Program
     {
@@ -17,12 +17,17 @@ namespace SmoothOperator
             // request byte input
             Console.Write("Insere um número inteiro não-negativo: ");
 
-            // byte conversion from string
+            // byte declaration
             byte n; 
 
             // converion & readline
             n = byte.Parse(Console.Readline()); 
 
+            // print & decrementation
+            Console.WriteLine(n--); 
+
+            // print & increment
+            Console.WriteLine(n++); 
         }
     }
 }
