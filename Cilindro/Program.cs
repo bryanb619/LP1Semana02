@@ -6,7 +6,15 @@ namespace Cilindro
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Insere a altura de um cilindro");
+
+            // Cylinder Height (a)
+            Console.Write("Insere a altura de um cilindro");
+
+
+            // Cylinder Radius (r)
+            Console.Write("Insere o raio de um cilindro");
+
+
         }
     }
 }
