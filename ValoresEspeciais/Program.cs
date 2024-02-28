@@ -64,8 +64,8 @@ namespace ValoresEspeciais
             double di = double.NegativeInfinity; 
             double dp = double.PositiveInfinity; 
 
-
-            
+            // NaN value
+            float x = float.NaN; 
 
 
             // INTEGRAL TYPES PRINT VALUES
@@ -114,6 +114,9 @@ namespace ValoresEspeciais
             Console.WriteLine(fp); 
             Console.WriteLine(di); 
             Console.WriteLine(dp); 
+            
+            // print of NaN
+            Console.WriteLine(x); 
             
 
         }
