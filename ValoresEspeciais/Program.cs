@@ -23,6 +23,10 @@ namespace ValoresEspeciais
             Console.WriteLine(uint.MinValue); 
             Console.WriteLine(uint.MaxValue); 
 
+            // ulong
+            Console.WriteLine(ulong.MinValue); 
+            Console.WriteLine(ulong.MaxValue); 
+
 
 
         }
