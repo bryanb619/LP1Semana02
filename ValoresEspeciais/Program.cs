@@ -140,6 +140,11 @@ namespace ValoresEspeciais
             Console.WriteLine(fo2); 
 
             
+            // underflow test
+            float uf = 60000.0f; 
+
+            Console.WriteLine(uf == 60000.0f + 0.0001f); 
+            
 
         }
     }
