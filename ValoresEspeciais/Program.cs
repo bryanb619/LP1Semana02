@@ -84,7 +84,7 @@ namespace ValoresEspeciais
 
             // uint print
             Console.WriteLine(suint);
-            Console.WriteLine(buint);
+            Console.WriteLine($"uint max value {buint}");
 
             // ulong print
             Console.WriteLine(sulong);
@@ -129,7 +129,11 @@ namespace ValoresEspeciais
             Console.WriteLine(x); 
 
             // 7
-            
+
+            Console.WriteLine($"uint overflow: {buint +1}"); 
+
+
+
             Console.WriteLine(buint +1); 
 
             // 2 OVERFLOWS in floats

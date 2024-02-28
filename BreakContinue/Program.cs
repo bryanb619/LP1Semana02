@@ -30,8 +30,6 @@ namespace BreakContinue
                     // Print turn number
                     Console.WriteLine($"Turn number {turn}");
                 }
-
-               
             }
 
             // Print number of last turn
