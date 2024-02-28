@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace ValoresEspeciais
 {
     class Program
@@ -8,62 +9,112 @@ namespace ValoresEspeciais
         {
 
             // sbyte
-            Console.WriteLine(sbyte.MinValue);
-            Console.WriteLine(sbyte.MaxValue);
+            sbyte ssb = sbyte.MinValue;
+            sbyte sbb = sbyte.MaxValue; 
 
             // byte
-            Console.WriteLine(byte.MinValue);
-            Console.WriteLine(byte.MaxValue); 
+            byte sb = byte.MinValue; 
+            byte bb = byte.MaxValue; 
 
             // int
-            Console.WriteLine(int.MinValue);
-            Console.WriteLine(int.MaxValue);
+            int si = int.MinValue; 
+            int bi = int.MaxValue; 
 
             // uint
-            Console.WriteLine(uint.MinValue); 
-            Console.WriteLine(uint.MaxValue); 
+            uint suint = uint.MinValue;
+            uint buint = uint.MaxValue;
 
             // ulong
-            Console.WriteLine(ulong.MinValue); 
-            Console.WriteLine(ulong.MaxValue); 
+            ulong sulong = ulong.MinValue; 
+            ulong bulong = ulong.MaxValue; 
 
             // long
-            Console.WriteLine(long.MinValue); 
-            Console.WriteLine(long.MaxValue); 
+            long slong = long.MinValue; 
+            long blong = long.MaxValue; 
 
             // short
-            Console.WriteLine(short.MinValue); 
-            Console.WriteLine(short.MaxValue); 
+            short sshort = short.MinValue; 
+            short bshort = short.MaxValue; 
 
             // ushort
-            Console.WriteLine(ushort.MinValue); 
-            Console.WriteLine(ushort.MaxValue); 
+            ushort sushort = ushort.MinValue;
+            ushort bushort = ushort.MaxValue; 
 
             // char
-            Console.WriteLine(char.MinValue);
-            Console.WriteLine(char.MinValue);
+            char schar = char.MinValue; 
+            char bchar = char.MaxValue;
+
 
             // float
-            Console.WriteLine(float.MinValue);
-            Console.WriteLine(float.MaxValue);
+            float sfloat = float.MinValue; 
+            float bfloat = float.MaxValue; 
 
             // double 
-            Console.WriteLine(double.MinValue);
-            Console.WriteLine(double.MaxValue);
+            double sdouble = double.MinValue; 
+            double bdouble = double.MaxValue; 
 
             // decimal 
-            Console.WriteLine(decimal.MinValue);
-            Console.WriteLine(decimal.MaxValue);
+            decimal sdecimal = decimal.MinValue; 
+            decimal bdecimal = decimal.MaxValue; 
+
+            // FLOAT & Double positive & negative values
+            float fi = float.NegativeInfinity; 
+            float fp = float.PositiveInfinity; 
+
+            double di = double.NegativeInfinity; 
+            double dp = double.PositiveInfinity; 
 
 
-            // double Infinity values
-            Console.WriteLine(double.PositiveInfinity);
-            Console.WriteLine(double.NegativeInfinity);
+            
 
-            // float Infinity values
-            Console.WriteLine(float.PositiveInfinity);
-            Console.WriteLine(float.NegativeInfinity);
 
+            // INTEGRAL TYPES PRINT VALUES
+            Console.WriteLine(ssb);
+            Console.WriteLine(sbb); 
+
+            Console.WriteLine(sb);
+            Console.WriteLine(bb);
+
+            Console.WriteLine(si);
+            Console.WriteLine(bi);
+
+            Console.WriteLine(suint);
+            Console.WriteLine(buint);
+
+            Console.WriteLine(sulong);
+            Console.WriteLine(bulong);
+
+            Console.WriteLine(slong);
+            Console.WriteLine(blong);
+
+            Console.WriteLine(sshort);
+            Console.WriteLine(bshort);
+
+            Console.WriteLine(sushort);
+            Console.WriteLine(bushort);
+
+            Console.WriteLine(schar);
+            Console.WriteLine(bchar);
+
+
+            // real types print
+            Console.WriteLine(sfloat);
+            Console.WriteLine(bfloat);
+
+            Console.WriteLine(sdouble);
+            Console.WriteLine(bdouble);
+
+            Console.WriteLine(sdecimal);
+            Console.WriteLine(bdecimal);
+
+
+
+            // FLOAT & Double positive & negative values Print 
+            Console.WriteLine(fi); 
+            Console.WriteLine(fp); 
+            Console.WriteLine(di); 
+            Console.WriteLine(dp); 
+            
 
         }
     }
