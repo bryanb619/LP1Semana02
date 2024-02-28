@@ -9,13 +9,13 @@ namespace Cilindro
         {
 
             // Cylinder Height (a)
-            Console.Write("Insere a altura de um cilindro");
+            Console.Write("Insere a altura de um cilindro: ");
 
             // input & conversion for height (a)
             float a  = float.Parse(Console.ReadLine()); 
 
             // Cylinder Radius (r)
-            Console.Write("Insere o raio de um cilindro");
+            Console.Write("Insere o raio de um cilindro: ");
 
             // input & conversion for height (r)
             float r = float.Parse(Console.ReadLine()); 
@@ -24,15 +24,12 @@ namespace Cilindro
             float v = MathF.PI * MathF.Pow(r,2) * a; 
 
             // print result
-            Console.WriteLine($"O volume do cilindro é {v}"); 
+            Console.WriteLine($"O volume do cilindro é: {v}"); 
 
             // surface area equation
             float s = 2* MathF.PI * r * (r+a); 
 
-
-
-
-
+            Console.WriteLine($"A área do cilindro é: {s}"); 
 
         }
     }
