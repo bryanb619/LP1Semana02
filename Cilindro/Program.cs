@@ -19,6 +19,13 @@ namespace Cilindro
             // input & conversion for height (r)
             float r = float.Parse(Console.ReadLine()); 
 
+            // volume equation
+            float v = MathF.PI * MathF.Pow(r,2) * a; 
+
+            
+
+
+
 
         }
     }
