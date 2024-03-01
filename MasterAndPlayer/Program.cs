@@ -36,8 +36,11 @@ namespace MasterAndPlayer
                     // integer number conversion & input read
                     int i = int.Parse(Console.ReadLine());
 
+                    // check if i is lower or higher then 100
                     if(i < 0 || i> 100)
-                    {
+                    {   
+                        // print error message
+                        Console.WriteLine("Invalid number! Try Again!"); 
 
                     }
 
