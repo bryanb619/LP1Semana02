@@ -6,8 +6,6 @@ namespace MasterAndPlayer
     {
         private static void Main(string[] args)
         {
-            // player win condition
-            bool playerWins = false; 
 
             // request input
             Console.Write("Number master insert: ");
@@ -32,7 +30,7 @@ namespace MasterAndPlayer
             }
 
             // game loop
-            while(!playerWins)
+            while(true)
             {
                 // request input
                 Console.Write("Player insert number: "); 
@@ -45,7 +43,6 @@ namespace MasterAndPlayer
                 {   
                     // print error message
                     Console.WriteLine("Invalid number! Try Again!"); 
-                
                 }
 
                 else
@@ -71,7 +68,7 @@ namespace MasterAndPlayer
                     else if (i == n)
                     {
                         Console.WriteLine("Player wins"); 
-                        playerWins = true; 
+                        return; 
                     
                     }
 
