@@ -7,6 +7,7 @@ namespace MasterAndPlayer
         private static void Main(string[] args)
         {
 
+           
             // request input
             Console.Write("Number master insert: ");
 
@@ -25,8 +26,18 @@ namespace MasterAndPlayer
                     Console.WriteLine("");
                 }
 
+                
+                Console.Write("Player insert number"); 
+
+
+                
+
 
             }
+
+            
+
+            
 
         }
     }
