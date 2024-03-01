@@ -7,7 +7,8 @@ namespace MasterAndPlayer
         private static void Main(string[] args)
         {
 
-           
+            bool playerWins = false; 
+
             // request input
             Console.Write("Number master insert: ");
 
@@ -29,10 +30,11 @@ namespace MasterAndPlayer
                 }
 
 
-                while(true)
+                while(!playerWins)
                 {
                     // request input
-                    Console.Write("Player insert number"); 
+                    Console.Write("Player insert number: "); 
+
                     // integer number conversion & input read
                     int i = int.Parse(Console.ReadLine());
 
@@ -44,16 +46,31 @@ namespace MasterAndPlayer
 
                     }
 
-                    // check lower
+                    // check if i is lower then n
                     if (i < n)
                     {
-                        // print error message
-                        Console.WriteLine($"Valid number is higher then {n}");
+                        // print hint message
+                        Console.WriteLine($"Valid number is higher then {i}");
                     }
 
+                    // check if i higher then n 
+                    else if(i > n)
+                    {
+                        // print hint message
+                        Console.WriteLine($"Valid number is lower then {i}");
 
+                    }
+
+                    else if (i == n)
+                    {
+                        Console.WriteLine("Player wins"); 
+                        playerWins = true; 
+                      
+                    }
 
                 }
+
+
             
 
             }
