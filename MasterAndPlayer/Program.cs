@@ -8,7 +8,7 @@ namespace MasterAndPlayer
         {
 
             // request input
-            Console.WriteLine("Insere um número inteiro entre 0 e 100");
+            Console.Write("Number master insert: ");
 
             // integer number conversion & input read
             int n = int.Parse(Console.ReadLine());
@@ -16,7 +16,7 @@ namespace MasterAndPlayer
             if (n < 0 || n> 100)
             {
                 Console.WriteLine
-                ("Erro, número inserido deve ser entre 0 e 100");
+                ("Invalid number! Try again!");
             }
             else
             {
