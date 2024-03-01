@@ -44,13 +44,17 @@ namespace MasterAndPlayer
 
                     }
 
+                    // check lower
+                    if (i < n)
+                    {
+                        // print error message
+                        Console.WriteLine($"Valid number is higher then {n}");
+                    }
+
+
+
                 }
-                
-
-
-
-                
-
+            
 
             }
 
