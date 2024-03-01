@@ -132,10 +132,6 @@ namespace ValoresEspeciais
 
             Console.WriteLine($"uint overflow: {buint +1}"); 
 
-
-
-            Console.WriteLine(buint +1); 
-
             // 2 OVERFLOWS in floats
             float fo = 2 * float.MaxValue; 
             float fo2 = float.MaxValue +1;  
