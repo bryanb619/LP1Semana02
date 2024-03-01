@@ -6,7 +6,7 @@ namespace MasterAndPlayer
     {
         private static void Main(string[] args)
         {
-
+            // player win condition
             bool playerWins = false; 
 
             // request input
@@ -18,18 +18,21 @@ namespace MasterAndPlayer
             // check if lower or higher then 100
             if (n < 0 || n> 100)
             {
+                // print error message
                 Console.WriteLine
                 ("Invalid number! Try again!");
             }
+
             else
             {
                 // print nothing 100 times
                 for (int j = 0; j <=100; j++)
                 {
+                    // print nothing
                     Console.WriteLine("");
                 }
 
-
+                // game loop
                 while(!playerWins)
                 {
                     // request input
@@ -43,42 +46,41 @@ namespace MasterAndPlayer
                     {   
                         // print error message
                         Console.WriteLine("Invalid number! Try Again!"); 
-
+                 
                     }
 
-                    // check if i is lower then n
-                    if (i < n)
+                    
+                    else
                     {
-                        // print hint message
-                        Console.WriteLine($"Valid number is higher then {i}");
-                    }
+                        // check if i is lower then n
+                        if (i < n)
+                        {
+                            // print hint message
+                            Console.WriteLine
+                            ($"Valid number is higher then {i}");
+                        }
 
-                    // check if i higher then n 
-                    else if(i > n)
-                    {
-                        // print hint message
-                        Console.WriteLine($"Valid number is lower then {i}");
+                        // check if i higher then n 
+                        else if(i > n)
+                        {
+                            // print hint message
+                            Console.WriteLine
+                            ($"Valid number is lower then {i}");
 
-                    }
+                        }
 
-                    else if (i == n)
-                    {
-                        Console.WriteLine("Player wins"); 
-                        playerWins = true; 
-                      
+                        // Player wins condition
+                        else if (i == n)
+                        {
+                            Console.WriteLine("Player wins"); 
+                            playerWins = true; 
+                        
+                        }
+
                     }
 
                 }
-
-
-            
-
             }
-
-            
-
-            
-
         }
     }
 }
