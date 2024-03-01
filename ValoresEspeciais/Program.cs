@@ -136,6 +136,7 @@ namespace ValoresEspeciais
             float fo = 2 * float.MaxValue; 
             float fo2 = float.MaxValue +1;  
 
+            
             Console.WriteLine(fo); 
             Console.WriteLine(fo2); 
 

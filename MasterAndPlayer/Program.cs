@@ -2,8 +2,19 @@
 
 namespace MasterAndPlayer
 {
+    /// <summary>
+    /// Represents a basic program that reads input from 2 players turning it
+    /// in to a guessing game
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Requests user a random number between 0 & 100 for the master
+        /// Requests the same range from player 2
+        /// If any number is out range, error message is printed
+        /// Player 2 wins when guess is equal to master input 
+        /// /// /// </summary>
+        /// <param name="args">Not Used</param>
         private static void Main(string[] args)
         {
 
@@ -71,7 +82,6 @@ namespace MasterAndPlayer
                         return; 
                     
                     }
-
                 }
 
             }
